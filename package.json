@@ -1,0 +1,35 @@
+{
+  "name": "relay-graphql-flux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node --presets react server.js",
+    "server": "nodemon --exec yarn run dev",
+    "webpack": "webpack -w -d",
+    "start": "run-p server webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvakatsiienko/relay-graphQL-flux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvakatsiienko/relay-graphQL-flux/issues"
+  },
+  "homepage": "https://github.com/dvakatsiienko/relay-graphQL-flux#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.1"
+  }
+}
